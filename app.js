@@ -1,0 +1,5 @@
+const users=require("./ThirdPM")
+// console.log(users)
+// const local=require("./local")
+const {getuser}=require("./local")
+console.log(getuser(users,"test"))
